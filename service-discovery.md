@@ -34,7 +34,7 @@ Note: The from IP address from the last command execution is the cluster-interna
 # Creating a namespace called other.
 kubectl apply -f https://raw.githubusercontent.com/openshift-evangelists/kbe/master/specs/sd/other-ns.yaml
 
-# Createing a Replication Controller in the namespace other.
+# Creating a Replication Controller in the namespace other.
 kubectl apply -f https://raw.githubusercontent.com/openshift-evangelists/kbe/master/specs/sd/other-rc.yaml
 
 # Creating a service thesvc in the namespace other.
